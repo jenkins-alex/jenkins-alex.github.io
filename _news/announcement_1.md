@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Aloha! My work on ECG imputation, 'PulseDiff', was accepted as poster at ICML 2023's Interpretable Machine Learning in Healthcare workshop.
+My work on ECG imputation, 'PulseDiff', was accepted as poster at ICML 2023's Interpretable Machine Learning in Healthcare workshop.
