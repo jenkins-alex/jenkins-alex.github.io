@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: PulseDiff
+description: Improving Diffusion Models for Pulse Imputation with Augmented Template Prior
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
