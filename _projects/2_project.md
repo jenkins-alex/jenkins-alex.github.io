@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Physics informed neural networks for embedded manifolds
+description: Coming soon...
+img: assets/img/heart_manifold.jpg.jpg
 importance: 2
 category: work
 ---

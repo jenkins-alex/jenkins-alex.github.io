@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Adaptive graph topology inference and spectral clustering using auto-regressive graph filters
+description: Coming soon...
+img: assets/img/adaptive_connectivity.png
 importance: 1
 category: work
 ---
