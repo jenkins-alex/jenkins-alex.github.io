@@ -2,7 +2,7 @@
 layout: page
 title: Physics informed neural networks for embedded manifolds
 description: Coming soon...
-img: assets/img/heart_manifold.jpg.jpg
+img: assets/img/heart_manifold.jpg
 importance: 2
 category: work
 ---
