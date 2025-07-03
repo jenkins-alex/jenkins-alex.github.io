@@ -12,29 +12,29 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        - name: CV
+          url: cv.pdf
+          weight: 2
 
 params:
-    description: "This website hosts Alexander Jenkins's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Alexander Jenkins's research papers, curriculum vitae, and contact information."
     author: Alexander Jenkins
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-VVMJ7FRD6K"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,8 +55,8 @@ params:
     profileMode:
           enabled: true
           title: Alexander Jenkins
-          subtitle: "I am a PhD candidate in the Department of Electrical and Electronic Engineering at Imperial College London, specializing in artificial intelligence and machine learning for healthcare applications. My research focuses on graph neural networks and time series signal processing for complex dynamical systems, particularly cardiac electrophysiology. My work has resulted in publications at top-tier venues including ICML and two filed patents. I am currently exploring opportunities upon finishing my PhD in Winter 2025. You can find my research portfolio and CV throughout this website."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a PhD Researcher in the Department of Electrical and Electronic Engineering at Imperial College London, specialising in artificial intelligence and machine learning for healthcare applications, supervised by Prof Danilo Mandic and Dr Fu Siong Ng.<br><br>My research focuses on developing AI methods to understand complex heart rhythm disorders, particularly using graph neural networks and time series analysis. My work has resulted in publications at top-tier venues including ICML and two filed patents.<br><br>I have experience spanning academia, finance, and technology, including roles at University of Oxford, IDSIA Switzerland, and Hummingbird Venture Capital. I am currently exploring opportunities upon finishing my PhD in Winter 2025."
+          imageUrl: "me.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -88,12 +88,12 @@ params:
         #   url: officehours/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=zAlYfWoAAAAJ&hl=en
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/alexanderljenkins/
         - name: GitHub
           url: https://github.com/jenkins-alex
         - name: Substack
           url: https://substack.com/@alexanderjenkins
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
         # - name: Twitter
         #   url: https://x.com/pmichaillat
         # - name: Bluesky
@@ -105,9 +105,9 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Alexander Jenkins"
       icon: favicon.ico
-      iconHeight: 18
+      iconHeight: 20
 
 markup:
     goldmark:

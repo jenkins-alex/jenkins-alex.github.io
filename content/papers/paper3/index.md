@@ -1,17 +1,17 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
+title: "Online Graph Learning via Time-Vertex Adaptive Filters: From Theory to Cardiac Fibrillation" 
+date: 2024-11-03
+tags: ["Graph signal processing", "adaptive filtering", "graph topology learning", "time series", "cardiac fibrillation", "causal graph process"]
+author: ["Alexander Jenkins", "Thiernithi Variddhisai", "Ahmed El-Medany", "Fu Siong Ng", "Danilo Mandic"]
+description: "We introduce AdaCGP, an online adaptive filtering algorithm for learning time-varying graph structures from multivariate time series, with applications to tracking cardiac fibrillation dynamics and assessing electrophenotype stability."
+summary: "We propose AdaCGP, an online algorithm that adaptively estimates graph shift operators from streaming multivariate time series using time-vertex autoregressive models. The method achieves 82% improvement over baseline adaptive VAR models in graph structure recovery and demonstrates clinical utility in tracking ventricular fibrillation dynamics under anti-arrhythmic treatment."
 cover:
     image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
+    alt: "Example of our algorithm in use"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
+    URL: "https://arxiv.org/abs/2411.01567"
+    Text: "arXiv"
 
 ---
 
@@ -20,33 +20,34 @@ editPost:
 ##### Download
 
 + [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/michez-rule)
++ [Code and data](https://github.com/jenkins-alex/AdaCGP)
 
 ---
 
 ##### Abstract
 
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
+Graph Signal Processing (GSP) provides a powerful framework for analysing complex, interconnected systems by modelling data as signals on graphs. Recent advances in GSP have enabled the learning of graph structures from observed signals, but these methods often struggle with time-varying systems and real-time applications. Adaptive filtering techniques, while effective for online learning, have seen limited application in graph topology estimation from a GSP perspective. To this end, we introduce AdaCGP, an online algorithm for adaptive estimation of the Graph Shift Operator (GSO) from multivariate time series. The GSO is estimated from an adaptive time-vertex autoregressive model through recursive update formulae designed to address sparsity, shift-invariance and bias. Through simulations, we show that AdaCGP performs consistently well across various graph topologies, and achieves improvements in excess of 82% for GSO estimation compared to baseline adaptive vector autoregressive models. In addition, our online variable splitting approach for enforcing sparsity enables near-perfect precision in identifying causal connections while maintaining low false positive rates upon optimisation of the forecast error. Finally, AdaCGP's ability to track changes in graph structure is demonstrated on recordings of ventricular fibrillation dynamics in response to an anti-arrhythmic drug. AdaCGP is shown to be able to identify the stability of critical conduction patterns that may be maintaining the arrhythmia in an intuitive way, together with its potential to support diagnosis and treatment strategies.
+
+---
+
+##### Example: Online graph learning via AdaCGP for analysis of cardiac fibrillation dynamics
+
+![](paper3.png)
 
 ---
 
 ##### Citation
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
+Jenkins, A., Variddhisai, T., El-Medany, A., Ng, F. S., & Mandic, D. (2024). Online Graph Learning via Time-Vertex Adaptive Filters: From Theory to Cardiac Fibrillation. arXiv [Eess.SP]. Retrieved from http://arxiv.org/abs/2411.01567
 
 ```BibTeX
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
+@misc{jenkins2024onlinegraphlearningtimevertex,
+      title={Online Graph Learning via Time-Vertex Adaptive Filters: From Theory to Cardiac Fibrillation}, 
+      author={Alexander Jenkins and Thiernithi Variddhisai and Ahmed El-Medany and Fu Siong Ng and Danilo Mandic},
+      year={2024},
+      eprint={2411.01567},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2411.01567}, 
+}
 ```
-
----
-
-##### Related material
-
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)
