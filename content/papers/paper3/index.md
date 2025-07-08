@@ -1,6 +1,6 @@
 ---
 title: "Online Graph Learning via Time-Vertex Adaptive Filters: From Theory to Cardiac Fibrillation" 
-date: 2024-11-03
+date: 2025-07-04
 tags: ["Graph signal processing", "adaptive filtering", "graph topology learning", "time series", "cardiac fibrillation", "causal graph process"]
 author: ["Alexander Jenkins", "Thiernithi Variddhisai", "Ahmed El-Medany", "Fu Siong Ng", "Danilo Mandic"]
 description: "We introduce AdaCGP, an online adaptive filtering algorithm for learning time-varying graph structures from multivariate time series, with applications to tracking cardiac fibrillation dynamics and assessing electrophenotype stability."
@@ -11,7 +11,7 @@ cover:
     relative: true
 editPost:
     URL: "https://arxiv.org/abs/2411.01567"
-    Text: "arXiv"
+    Text: "IEEE Transactions on Signal and Information Processing over Networks"
 
 ---
 
