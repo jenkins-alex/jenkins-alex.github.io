@@ -1,17 +1,18 @@
 ---
-title: "Fair and Skill-Diverse Student Group Formation via Constrained k-Way Graph Partitioning"
-date: 2023-01-12
+title: "A Graph-Theoretic Approach to Fair and Skill-Diverse Student Group Formation"
+date: 2026-01-01
 tags: ["graph partitioning", "fairness", "constrained optimization", "manifold learning", "education technology", "Laplacian eigenmap"]
-author: ["Alexander Jenkins", "Imad Jaimoukha", "Ljubisa Stankovic", "Danilo Mandic"]
-description: "We present an unsupervised algorithm for fair and skill-diverse student group formation using constrained optimization problems involving graph cuts and dimensionality reduction via Laplacian eigenmaps to identify student skill affinities from course performance data. Our algorithm is now used routinely by 3 European universities."
-summary: "We introduce a constrained k-way graph partitioning approach for automated student group formation that maximizes skill diversity while ensuring fairness. Using Laplacian eigenmaps for dimensionality reduction of student course marks, our method balances group composition with respect to sensitive attributes while promoting diverse skill sets within each group. Our algorithm is now used routinely by 3 European universities."
+author: ["Alexander Jenkins", "Emma Rainbow", "Imad Jaimoukha", "Fu Siong Ng", "Ljubisa Stankovic", "Milos Dakovic", "Danimir Mandic", "Danilo Mandic"]
+description: "A graph-theoretic algorithm for fair and skill-diverse student group formation using Laplacian eigenmaps and constrained k-way graph partitioning. Now deployed at 3 European universities."
+summary: "A graph-theoretic algorithm for fair and skill-diverse student group formation using Laplacian eigenmaps and constrained k-way graph partitioning. Now deployed at 3 European universities."
 cover:
     image: "paper5.png"
     alt: "Example of a graph cut"
     relative: true
 editPost:
     URL: "https://arxiv.org/abs/2301.09984"
-    Text: "The Association for the Advancement of Artificial Intelligence (AAAI) Workshop on AI for Education"
+    Text: "IEEE Signal Processing Magazine (2026) · AAAI Workshop on AI for Education (2023, contributed talk)"
+demo: "https://groupform-production.up.railway.app/"
 
 
 ---

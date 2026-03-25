@@ -11,7 +11,7 @@ cover:
     relative: true
 editPost:
     URL: "https://arxiv.org/abs/2310.15742"
-    Text: "International Conference on Machine Learning: Workshop on Interpretable Machine Learning in Healthcare"
+    Text: "ICML Workshop on Interpretable Machine Learning in Healthcare"
 
 
 ---

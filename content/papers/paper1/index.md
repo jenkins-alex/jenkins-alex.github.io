@@ -1,17 +1,17 @@
 ---
-title: "Learning to Predict Global Atrial Fibrillation Dynamics from Sparse Measurements" 
-date: 2025-02-14
+title: "Learning to Map Global Atrial Fibrillation Dynamics from Sparse Measurements"
+date: 2026-01-01
 tags: ["Atrial Fibrillation", "electrophysiological mapping", "catheter ablation", "graph neural network", "recurrent neural network", "spatiotemporal", "imputation"]
 author: ["Alexander Jenkins", "Andrea Cini", "Joseph Barker", "Alexander Sharp", "Arunashis Sau", "Varun Valentine", "Srushti Valasang", "Xinyang Li", "Tom Wong", "Timothy Betts", "Danilo Mandic", "Cesare Alippi", "Fu Siong Ng"]
-description: "This paper introduces a new method to visualise cardiac fibrillation dynamics termed 'imputation mapping'. Using a graph neural network approach, global atrial fibrillation dynamics are reconstructed from sparse clinical measurements, achieving superior performance in tracking cardiac arrhythmia patterns compared to existing methods."
-summary: "This paper introduces a new method to visualise cardiac fibrillation dynamics termed 'imputation mapping'. Using a graph neural network approach, global atrial fibrillation dynamics are reconstructed from sparse clinical measurements, achieving superior performance in tracking cardiac arrhythmia patterns compared to existing methods." 
+description: "FibMap reconstructs global atrial fibrillation dynamics from sparse clinical measurements using a spatiotemporal graph neural network, enabling personalised cardiac mapping for catheter ablation guidance."
+summary: "FibMap reconstructs global atrial fibrillation dynamics from sparse clinical measurements using a spatiotemporal graph neural network, enabling personalised cardiac mapping for catheter ablation guidance."
 cover:
     image: "paper1.png"
     alt: "Example of our algorithm in use"
     relative: true
 editPost:
     URL: "https://arxiv.org/abs/2502.09473"
-    Text: "arXiv"
+    Text: "EP Europace (Under Review) · NeurIPS Workshop on Learning from Time Series for Health · Heart Rhythm 2026"
 demo: "https://www.youtube.com/watch?v=amHOZnMm5LE"
 
 ---

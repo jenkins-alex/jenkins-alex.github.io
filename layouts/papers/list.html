@@ -18,7 +18,7 @@
   {{- if $coverImg }}
     {{- $img := .Resources.GetMatch $coverImg }}
     {{- if $img }}
-    {{- $thumb := $img.Resize "260x jpg" }}
+    {{- $thumb := $img.Resize "480x jpg" }}
     <div class="paper-thumbnail">
       <img src="{{ $thumb.RelPermalink }}" alt="{{ .Params.cover.alt | default .Title }}">
     </div>
