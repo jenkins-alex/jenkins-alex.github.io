@@ -12,6 +12,7 @@ cover:
 editPost:
     URL: "https://arxiv.org/abs/2502.09473"
     Text: "arXiv"
+demo: "https://www.youtube.com/watch?v=amHOZnMm5LE"
 
 ---
 

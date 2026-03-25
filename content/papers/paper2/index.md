@@ -12,6 +12,7 @@ cover:
 editPost:
     URL: "https://icml.cc/virtual/2025/poster/43601"
     Text: "International Conference on Machine Learning"
+github: "https://github.com/andreacini/corel"
 
 ---
 

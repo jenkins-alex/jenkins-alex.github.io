@@ -12,6 +12,7 @@ cover:
 editPost:
     URL: "https://arxiv.org/abs/2411.01567"
     Text: "IEEE Transactions on Signal and Information Processing over Networks"
+github: "https://github.com/jenkins-alex/AdaCGP"
 
 ---
 

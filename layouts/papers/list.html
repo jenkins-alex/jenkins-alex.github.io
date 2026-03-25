@@ -1,0 +1,54 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content papers-intro">
+  {{ .Content }}
+</div>
+{{- end }}
+
+<div class="papers-list">
+{{- range (.RegularPages.ByDate.Reverse) }}
+<article class="paper-panel">
+
+  {{- $coverImg := .Params.cover.image }}
+  {{- if $coverImg }}
+    {{- $img := .Resources.GetMatch $coverImg }}
+    {{- if $img }}
+    {{- $thumb := $img.Resize "260x jpg" }}
+    <div class="paper-thumbnail">
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ .Params.cover.alt | default .Title }}">
+    </div>
+    {{- end }}
+  {{- end }}
+
+  <div class="paper-info">
+    <h2 class="paper-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+
+    {{- with .Params.editPost }}
+    <p class="paper-venue">{{ .Text }}</p>
+    {{- end }}
+
+    <div class="paper-buttons">
+      {{- with .Params.editPost.URL }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="paper-btn paper-btn-primary">View Paper</a>
+      {{- end }}
+      {{- with .Params.github }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="paper-btn">GitHub</a>
+      {{- end }}
+      {{- with .Params.demo }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="paper-btn">Demo</a>
+      {{- end }}
+    </div>
+  </div>
+
+</article>
+{{- end }}
+</div>
+
+{{- end }}{{- /* end main */ -}}
