@@ -1,3 +1,46 @@
+/* ── Profile bio link styling ───────────────────────────────────── */
+.profile-bio a {
+  color: var(--darkcolor);
+  text-decoration: none;
+  border-bottom: 1px solid var(--lightcolor);
+  transition: color 0.13s ease, border-color 0.13s ease;
+}
+
+.profile-bio a:hover {
+  color: var(--primary);
+  border-bottom-color: var(--darkcolor);
+}
+
+/* ── Profile nav bar (Papers / CV buttons) ──────────────────────── */
+.profile-nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 2px 0 16px;
+}
+
+.profile-nav-bar .button {
+  background: transparent;
+  border: 1.5px solid var(--primary);
+  border-radius: 4px;
+  margin: 0;
+  padding: 6px 18px;
+  font-size: 13.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--primary);
+  transition: background 0.13s ease, color 0.13s ease;
+}
+
+.profile-nav-bar .button-inner {
+  padding: 0;
+}
+
+.profile-nav-bar .button:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
 /* ── Papers list intro ──────────────────────────────────────────── */
 .papers-intro {
   font-size: var(--entrysize);
