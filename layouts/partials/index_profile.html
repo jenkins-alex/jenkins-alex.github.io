@@ -33,6 +33,10 @@
 
         <h1>{{ .title | default site.Title | markdownify }}</h1>
 
+        <span class="profile-bio">{{ .subtitle | markdownify }}</span>
+
+        {{- partial "social_icons.html" -}}
+
         {{- with .buttons }}
         <div class="buttons profile-nav-bar">
             {{- range . }}
@@ -42,10 +46,6 @@
             {{- end }}
         </div>
         {{- end }}
-
-        <span class="profile-bio">{{ .subtitle | markdownify }}</span>
-
-        {{- partial "social_icons.html" -}}
     </div>
     {{- end}}
 </div>
